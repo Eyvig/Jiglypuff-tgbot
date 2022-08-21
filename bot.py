@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('5687319899:AAGaf2h-rPLti1zbM1Uq7wHJnWlXWoLzzU4')
+bot = telebot.TeleBot('#Your token')
 
 
 @bot.message_handler(commands=['start'])
